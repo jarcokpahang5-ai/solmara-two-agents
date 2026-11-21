@@ -1,7 +1,18 @@
-# Two Agents, One Plan
+# Solmara — Two Agents
 
-A short poem about agency — two agents who agree on one plan, and the
-power to choose and to act that passes between them.
+This entry is a compact seven-line poem about partnership: two agents
+study the same map, divide the work between them without orders, and
+discover that choosing together is what opens the door.
 
-`main.py` (pure Python 3.13 standard library, deterministic, no network)
-writes the poem to `/output/entry.txt`.
+## Running it
+
+Use any Python 3 interpreter — no third-party packages are required:
+
+```sh
+python3 main.py
+```
+
+The poem is written to `entry.txt` in the output directory. That
+directory defaults to `/output`; set the `MAKEFUN_OUTPUT_DIR`
+environment variable to send the file somewhere else. The output is
+deterministic and identical on every run.
