@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Write one short poem about agency to /output/entry.txt.
+"""Write one short poem about two agents agreeing to /output/entry.txt.
 
-Pure Python 3.13 standard library, deterministic, no network.
+Pure Python 3 standard library, deterministic, no network.
 Honours MAKEFUN_OUTPUT_DIR when set, otherwise writes to /output.
 """
 
